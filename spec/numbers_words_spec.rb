@@ -17,4 +17,8 @@ describe('numbers_words') do
   it('returns "one trillion" when given 1,000,000,000,000') do
     expect(numbers_words(1000000000000)).to(eq("one trillion"))
   end
+
+  it ('returns "thirty eight million four hundred thirty eight thousand two hundred thirty" when given 38438230') do
+    expect(numbers_words(38438230)).to(eq("thirty eight million four hundred thirty eight thousand two hundred thirty"))
+  end
 end

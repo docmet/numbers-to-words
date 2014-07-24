@@ -80,6 +80,6 @@ def numbers_words(number)
         i += 3
     end
   end
-  result = res_arr.reverse.join(" ").chomp(" ")
+  result = res_arr.reverse.join(" ").chomp(" ").chomp(" ")
   result
 end
